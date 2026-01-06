@@ -1,6 +1,4 @@
-# =========================
 # RAILWAY ADMIN CLI
-# =========================
 
 import getpass
 
@@ -9,22 +7,24 @@ print(" RAILWAY MANAGEMENT SYSTEM ")
 print("        ADMIN CLI")
 print("=" * 40)
 
-# =========================
+
 # SIMPLE AUTH (OPTIONAL BUT FIRE)
-# =========================
-password = getpass.getpass("Enter admin password: ")
 
-if password != "admin123":
-    print("Access denied ❌")
-    exit()
+while True:
+    password = getpass.getpass("Enter admin password: ")
+    if password == "admin123":
+        print("Access granted ✅")
+        break
+    else:
+        print("Access denied ❌")
 
-print("Access granted ✅")
+
 print("Type 'help' to see commands\n")
 
 
-# =========================
+
 # CLI LOOP
-# =========================
+
 while True:
     command = input("RMS> ").strip().lower()
 
