@@ -1,4 +1,6 @@
 import tkinter as tk
+import subprocess
+import sys
 from auth.register import register_user
 from auth.login import login_user
 from printer import *
@@ -212,8 +214,11 @@ class DashboardPage(tk.Frame):
         self.canvas.tag_bind(btn3_id, "<Button-1>", self.btn3)
 
     def open_cli(self, event=None):
-        print("CLI opens")
-
+        subprocess.Popen(
+            ["cmd", "/k", sys.executable, "admin_cli.py"],
+            creationflags=subprocess.CREATE_NEW_CONSOLE
+        )
+    
     def btn1(self, event=None):
         print("Print Available Trains")
         export_table_to_txt_train()
