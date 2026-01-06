@@ -124,4 +124,6 @@ def cancel_ticket():
         input("Press Enter to continue...")
         con.close()
 
-book_ticket()
+
+if __name__ == "__main__":
+    book_ticket()
