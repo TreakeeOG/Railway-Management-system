@@ -61,12 +61,16 @@ Displayed using **Matplotlib**:
 ---
 
 ## 🖥 **Screenshots (UI Previews)**
+<img width="393" height="852" alt="Welcome Page" src="https://github.com/user-attachments/assets/ca9bfc74-29d6-4183-afdf-988f0acf13d2" />
 
-> _Screenshots will be added here after UI implementation._  
-Put all screenshots inside:  
+<img width="393" height="852" alt="Register" src="https://github.com/user-attachments/assets/f7555ef0-3e30-41bb-ac0f-ab61c1dac346" />
+<img width="393" height="852" alt="Login" src="https://github.com/user-attachments/assets/3c7d70c0-b349-4c8d-95d0-d97f2bef9918" />
+
+<img width="393" height="852" alt="Dashboard" src="https://github.com/user-attachments/assets/bebd7c43-2cdb-4ff3-af78-af6668d925c2" />
 
 ## Authors
 
 - [@TreakeeOG](https://www.github.com/TreakeeOG)
 
 - [@BOxmAN0911](https://www.github.com/BOxmAN0911)
+
